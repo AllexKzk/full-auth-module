@@ -1,3 +1,5 @@
+@import '/src/styles/fonts.css';
+
 .auth-page {
   height: 100%;
   display: flex;
@@ -10,13 +12,13 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 500px;
+  transition: all 500ms;
   background-color: #2c2c2c;
   border-radius: 36px;
   padding: 25px;
   span {
-    margin: auto;
-    font-size: 48px;
+    margin: 15px auto;
+    font: var(--header);
     color: white;
     font-weight: 200;
   }

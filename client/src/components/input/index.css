@@ -1,9 +1,12 @@
+@import '/src/styles/fonts.css';
+
 .input {
   display: flex;
   margin: 10px;
   flex-direction: column;
   label {
     color: white;
+    font: var(--label);
   }
   input {
     border-radius: 4px;

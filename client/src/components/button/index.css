@@ -1,6 +1,20 @@
+@import '/src/styles/colors.css';
+@import '/src/styles/fonts.css';
+
 .btn {
   margin: auto;
   margin-top: 10px;
   button {
+    padding: 5px 30px;
+    font: var(--label);
+    background-color: var(--primary);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.5rem;
+    transition: all 300ms;
+  }
+  button:hover {
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--primary);
   }
 }
