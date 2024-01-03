@@ -1,0 +1,28 @@
+@import '/src/styles/fonts.css';
+@import '/src/styles/colors.css';
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  .tab {
+    a {
+      color: inherit; /* blue colors for links too */
+      text-decoration: inherit; /* no underline */
+    }
+    font: var(--label);
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: all 300ms;
+  }
+  .tab:hover {
+    color: var(--gray);
+  }
+  .active {
+    border-bottom: 1px solid var(--primary);
+  }
+}                                 
